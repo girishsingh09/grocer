@@ -1,0 +1,372 @@
+
+<html>
+<head><title>Fasakk Grocery store : India's one of the largest grocery website</title>
+</head>
+<style>
+body{background-color :olive;}
+h1{color:white;
+font-family:constania;
+font-size:30px;}
+h2{font-family:constania;
+color:yellow;
+font-size:36px;}
+h3{font-family:constania;
+color:white;
+font-size:30px;}
+p1{
+font-family:constania;
+color:white;
+font-size:24px;}
+p2{font-family:constania;
+font-size:20px;
+color:black;}
+td:nth-child(even){background-color:orange}
+td:nth-child(odd){background-color:yellow}
+div.gallery {
+  border: 1px solid;
+color:yellow;
+}
+
+div.gallery:hover {
+  border: 1px solid;
+color:orange;
+}
+
+div.gallery img {
+width:100%
+ 
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #777;
+height:10%;
+  padding: 10px;
+  text-align: center;
+  color: white;}
+.radius
+{
+border-radius:10px;
+}
+</style>
+<body>
+<h1 align="center"><i>Welcome to Fasakk Grocers...</i></h1>
+<table border="1" width="100%" height=50>
+<tr>
+<td width="16.6%" align="center" class="radius">Home</td>
+<td width="16.6%" align="center"  class="radius">About</td>
+<td width="16.6%" align="center"  class="radius">Products</td>
+<td width="16.6%" align="center"  class="radius"><a href="login.html"> Login</a></td>
+<td width="16.6%" align="center"  class="radius"><a href="contact.html">Contact us</a></td>
+<td width="16.6%" align="center"  class="radius">Feedback</td>
+</tr>
+</table>
+ <img src="vegetable.png" alt="vegetable offer" width="100%" height="200">
+<h2><i>About Fasakk Grocers.....</i></h2>
+<pre>
+<p1><b><i>A grocer is a bulk seller of food.Grocery stores also offer non-perishable foods that are 
+packaged in bottles, boxes, and cans; some also have bakeries, butchers, delis, and fresh produce.
+ Large grocery stores that stock significant amounts of non-food products,
+ such as clothing and household items, are called supermarkets.<pre>"We.Will.Deliver. On Time On Quality"</pre></i></b></p1>
+<p2><b><i>We are the team of Fasakk grocers with four members.
+The only aim of the team is to develop the webpage as much as possible.
+We try our level best to develop this page.......</i></b></p2> 
+</pre>
+<h2><i>Our Products : </i></h2>
+<h3><i>Vegetables :</i></h3>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="potato.jpg">
+      <img src="potato.jpg" alt="potato" width="600" height="250">
+    </a>
+    <div class="desc">20 rupees per Kg</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="cabbage.jpg">
+      <img src="cabbage.jpg" alt="cabbage" width="500" height="250">
+    </a>
+    <div class="desc">35 rupees per Kg</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="tomato.jpg">
+      <img src="tomato.jpg" alt="tomato" width="600" height="250">
+    </a>
+    <div class="desc">35 rupees per Kg</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="brinjal.jpg">
+      <img src="brinjal.jpg" alt="brinjal" width="60" height="250">
+    </a>
+    <div class="desc">25 rupees per Kg</div>
+  </div>
+</div>&nbsp;
+
+<h3><i>Fruits :</i></h3>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pineapple.jpg">
+      <img src="pineapple.jpg" alt="pineapple" width="600" height="250">
+    </a>
+    <div class="desc">250 rupees per Kg</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="kiwi.jpg">
+      <img src="kiwi.jpg" alt="kiwi" width="600" height="250">
+    </a>
+    <div class="desc">100 rupees per Kg</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="apple.jpg">
+      <img src="apple.jpg" alt="apple" width="600" height="250">
+    </a>
+    <div class="desc">100 rupees per Kg</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="mango.jpg">
+      <img src="mango.jpg" alt="mango" width="600" height="250">
+    </a>
+    <div class="desc">300 rupees per Kg</div>
+  </div>
+</div>&nbsp;
+<h3><i>Snack items :</i></h3>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="biscuit.jpg">
+      <img src="biscuit.jpg" alt="biscuit" width="600" height="250">
+    </a>
+    <div class="desc">15 rupees on offer</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="biscuit1.jpg">
+      <img src="biscuit1.jpg" alt="biscuit" width="600" height="250">
+    </a>
+    <div class="desc">15 rupees per offer</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="biscuit2.jpg">
+      <img src="biscuit2.jpg" alt="biscuit" width="600" height="250">
+    </a>
+    <div class="desc">35 rupees per offer</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="biscuit3.jpg">
+      <img src="biscuit3.jpg" alt="biscuit" width="600" height="250">
+    </a>
+    <div class="desc">50 rupees per offer</div>
+  </div>
+</div><br>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="junk.jpg">
+      <img src="junk.jpg" alt="junk food" width="600" height="250">
+    </a>
+    <div class="desc">30 rupees per offer</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="junk1.jpg">
+      <img src="junk1.jpg" alt="junk food" width="600" height="250">
+    </a>
+    <div class="desc">35 rupees per offer</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="junk2.jpg">
+      <img src="junk2.jpg" alt="junk food" width="600" height="250">
+    </a>
+    <div class="desc">20 rupees</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="junk3.jpg">
+      <img src="junk3.jpg" alt="junk food" width="600" height="250">
+    </a>
+    <div class="desc">20 rupees</div>
+  </div>
+</div><br>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="junk4.jpg">
+      <img src="junk4.jpg" alt="junk food" width="600" height="250">
+    </a>
+    <div class="desc">20 rupees</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="chocolate.jpg">
+      <img src="chocolate.jpg" alt="junk food" width="600" height="250">
+    </a>
+    <div class="desc">30 rupees</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="chocolate1.jpg">
+      <img src="chocolate1.jpg" alt="junk food" width="600" height="250">
+    </a>
+    <div class="desc">75 rupees</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="chocolate2.jpg">
+      <img src="chocolate2.jpg" alt="junk food" width="600" height="250">
+    </a>
+    <div class="desc">350 rupees</div>
+  </div>
+</div>
+<h3><i>Rice and cereals :</i></h3>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="rice.jpg">
+      <img src="rice.jpg" alt="rice bag" width="600" height="250">
+    </a>
+    <div class="desc">3500 rupees</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="rice1.jpg">
+      <img src="rice1.jpg" alt="rice bag" width="600" height="250">
+    </a>
+    <div class="desc">3000 rupees</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="rice2.jpg">
+      <img src="rice2.jpg" alt="rice bag" width="600" height="250">
+    </a>
+    <div class="desc">4000 rupees</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="rice3.jpg">
+      <img src="rice3.jpg" alt="rice bag" width="600" height="250">
+    </a>
+    <div class="desc">2500 rupees on offer</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="cereals.jpg">
+      <img src="cereals.jpg" alt="cereal" width="600" height="250">
+    </a>
+    <div class="desc">250 rupees on offer</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="cereals1.jpg">
+      <img src="cereals1.jpg" alt="cereal" width="600" height="250">
+    </a>
+    <div class="desc">200 rupees on offer</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="cereals2.jpg">
+      <img src="cereals2.jpg" alt="cereal" width="600" height="250">
+    </a>
+    <div class="desc">350 rupees on offer</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="cereals3.jpg">
+      <img src="cereals3.jpg" alt="cereal" width="600" height="250">
+    </a>
+    <div class="desc">450 rupees on offer 25%off on Fasakk wallet</div>
+  </div>
+</div>&nbsp;
+<h3><i>Cooking and Hair oils</i></h3>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="oil.jpg">
+      <img src="oil.jpg" alt="cereal" width="600" height="250">
+    </a>
+    <div class="desc">500 rupees and 15%off on Fasakk wallet</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="oil1.jpg">
+      <img src="oil1.jpg" alt="cereal" width="600" height="250">
+    </a>
+    <div class="desc">200 rupees and 35%off on Fasakk wallet</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="oil2.jpg">
+      <img src="oil2.jpg" alt="cereal" width="600" height="250">
+    </a>
+    <div class="desc">150 rupees </div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="oil3.jpg">
+      <img src="oil3.jpg" alt="cereal" width="600" height="250">
+    </a>
+    <div class="desc">75 rupees on offer </div>
+  </div>
+</div><br>&nbsp;
+<footer>
+<p>Log in into www.fasakkgrocers.com 2019&copy&reg &trade;</p>
+</html>
